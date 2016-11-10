@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Jalase4H</string>
+    <string name="name_group">Android class registration form</string>
+    <string name="Enter_name">please enter full name</string>
+    <string name="Enter_Email">please enter Email</string>
+    <string name="Enter_new_password">please enter new password</string>
+    <string name="Enter_conferm_password">please enter conferm password</string>
+    <string name="Click_join">Android class join</string>
+    <string name="Agree_rules">Agree Rules</string>
+    <string name="Explain_Rules">please Complete the above form.it is important
+        to become active in the group and Not insult.in this app,we try to give
+    you the necessary training to lern Android but this training effort are you
+    at home. thanks for you attention</string>
+</resources>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.amirhosein.jalase4h.MainActivity">
+
+    <TextView
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="#1e0446"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/name_group" />
+
+    <EditText
+        android:inputType="text"
+        android:layout_marginTop="20dp"
+        android:hint="@string/Enter_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="15dp"
+        android:hint="@string/Enter_Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:inputType="numberPassword"
+        android:layout_marginTop="15dp"
+        android:hint="@string/Enter_new_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_marginTop="15dp"
+        android:inputType="numberPassword"
+        android:hint="@string/Enter_conferm_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:text="@string/Explain_Rules"
+            android:textSize="10sp"
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:layout_marginTop="15dp"
+            android:text="@string/Agree_rules"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox" />
+
+        <Button
+            android:onClick="btn_click"
+            android:layout_marginTop="-5dp"
+            android:text="@string/Click_join"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@mipmap/ic_launcher"
+            android:id="@+id/imageButton2" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
